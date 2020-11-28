@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2</title>
+        <author ref="#Aristotle">Aristotle</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1</title>
+          <date when="2020-11-28">November 28, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="J" n="cod-AAssXX">Venice 1562 <!-- Italic latin translatin in codex, codex is cod-AAssXX but alt manifestation slug is cod-AAssXI--></witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#J" n="1-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aristmet-l2">
+        <div xml:id="aristmet-l2-Dd1e102">
+          <head xml:id="aristmet-l2-Hd1e104">Caput 1</head>
+          <!-- <p>
+            <!-\-
+            Start books 2
+            Averroes_Metaphysica_JuntSecunda_08-0059.xml-\->
+            <cb ed="#J" n="b"/>
+            <lb ed="#J" n="44"/>A ESFor ELis 
+            <lb ed="#J" n="45"/>MEr Apriyxsco VM 
+            <lb ed="#J" n="46"/>trm E MSECVNDV8. 
+            <lb ed="#J" n="47"/>Cum Auer. Commen  
+            <lb ed="#J" n="48"/>SVMMA 22222 
+            <lb ed="#J" n="49"/>in hac Summa vnica, de Veritatis 
+            <lb ed="#J" n="50"/>speculatione agitur. 
+            <lb ed="#J" n="51"/>Veritatis speculationem tum facilem, tum 
+            <lb ed="#J" n="52"/>vero difficilem esse. Quoquae pacto 
+            <lb ed="#J" n="53"/>Pbilosophia veritatis scientia 
+            <lb ed="#J" n="54"/>recte appelletur. C. 1
+            </p>-->
+          <p xml:id="aristmet-l2-d1e109">
+            <!-- italic -->
+            <!--Averroes_Metaphysica_JuntSecunda_08-0060.xml-->
+            <pb ed="#J" n="28-v"/>
+            <cb ed="#J" n="a"/>
+            <lb ed="#J" n="1"/><pc type="indent"/>Consyderatio quidem in veri¬ 
+            <lb ed="#J" n="2"/>tate difficilis est vno modo, &amp; fa 
+            <lb ed="#J" n="3"/>cilis alio modo. Et signum eius est, 
+            <lb ed="#J" n="4"/>quod nullus hominum potuit per¬ 
+            <lb ed="#J" n="5"/>uenire in ipsam secundum quod  
+            <lb ed="#J" n="6"/>oportet, neque d cuiauit se ab homi¬ 
+            <lb ed="#J" n="7"/>nibus, sed vnusquisque locutus fuit  
+            <lb ed="#J" n="8"/>de natura. &amp; vnusquisque eorum 
+            <lb ed="#J" n="9"/>aut nihil comprehendit de verita 
+            <lb ed="#J" n="10"/>te, aut modicum. &amp;, cum aggre¬ 
+            <lb ed="#J" n="11"/>gatum fuit illud, quod congregati¬ 
+            <lb ed="#J" n="12"/>fuit ab omnibus, qui comprehendo 
+            <lb ed="#J" n="13"/>runt ex eo, tunc congrecatum erit 
+            <lb ed="#J" n="14"/>alicutus quantitatis. Est igitur sa 
+            <lb ed="#J" n="15"/>cilis secundum hunc modum, &amp;.  
+            <lb ed="#J" n="16"/>est modus, secundum quem ha 
+            <lb ed="#J" n="17"/>bemus in consuetudine inducere in 
+            <lb ed="#J" n="18"/>prouerbio, dicendo quod nullus igno 
+            <lb ed="#J" n="19"/>rat locum ianuae in domo. &amp; de¬ 
+            <lb ed="#J" n="20"/>monstrat difficultatem eius hoc 
+            <lb ed="#J" n="21"/>quod non fuit comprehensa secun¬ 
+            <lb ed="#J" n="22"/>dum totum, neque, maior pars eius.  
+            <lb ed="#J" n="23"/>Et, cum difficultas sit duobus mo¬ 
+            <lb ed="#J" n="24"/>dis, dignum est vt sit difficilis non 
+            <lb ed="#J" n="25"/>propter res, sed propter nos. disposi 
+            <lb ed="#J" n="26"/>tio enim intellectus ianima apud  
+            <lb ed="#J" n="27"/>illud, quod est in natura valde ma 
+            <lb ed="#J" n="28"/>nifestum, similis est dispositioni 
+            <lb ed="#J" n="29"/>oculorum vespertilionis apud lu 
+            <lb ed="#J" n="30"/>cem Solis.
+          </p>
+          <p xml:id="aristmet-l2-d1e180">
+            <!-- italic -->
+            <lb ed="#J" n="57"/><pc type="indent"/>Et iustum est non tantum red  
+            <lb ed="#J" n="58"/>dere gratias illis, cum quibus ha¬ 
+            <lb ed="#J" n="59"/>buimus communicationem in con¬ 
+            <lb ed="#J" n="60"/>syderatione. sed &amp; etiam illis, qui 
+            <lb ed="#J" n="61"/>habent in hoc aliquid dignitatis 
+            <lb ed="#J" n="62"/>modicum. quia tuuarut nos in hoc 
+            <lb ed="#J" n="63"/>aliquantulum: quia praecesserunt, 
+            <lb ed="#J" n="64"/>&amp; exercitauerunt nostrum intel 
+            <lb ed="#J" n="65"/>lectum. Quoniam si rimotheus no 
+            <lb ed="#J" n="66"/>esset, tunc careremus multum de 
+            <lb ed="#J" n="67"/>compositione musicali. &amp; si Hte¬ 
+            <lb ed="#J" n="68"/>rosinus non esset, tunc non esset ri¬ 
+            <lb ed="#J" n="69"/>motheus. Et sic est de loquentibus 
+            <lb ed="#J" n="70"/>in veritate. nos autem accepimus 
+            <lb ed="#J" n="71"/>quasdam locutiones ab Antiquis 
+            <lb ed="#J" n="72"/>quibusdam, &amp; alii fuerunt causa 
+            <lb ed="#J" n="73"/>in esse istorum.
+          </p>
+          <p xml:id="aristmet-l2-d1e220"  >
+            <!-- italic version -->
+            <lb ed="#J" n="16"/><pc type="indent"/>Et rectum est vocare cognitio¬ 
+            <lb ed="#J" n="17"/>nem veritatis philosophiae scien¬ 
+            <lb ed="#J" n="18"/>tiam speculatiuam finis enim scin 
+            <lb ed="#J" n="19"/>tiae speculatiuae est veritas, &amp; fi¬ 
+            <lb ed="#J" n="20"/>nis scientiae operatiuae est actio, 
+            <lb ed="#J" n="21"/>operantes enim, licet consyderent 
+            <lb ed="#J" n="22"/>in eo, quod agunt, tamen non per¬  
+            <lb ed="#J" n="23"/>scrutantur de causa propter seip¬ 
+            <lb ed="#J" n="24"/>sam, sed respectu eius, quod agunt
+          </p>
+          <p xml:id="aristmet-l2-d1e242">
+            <!-- italic -->
+            <lb ed="#J" n="58"/>Et nos non scimus veritatem ab  
+            <lb ed="#J" n="59"/>que hoc quod sciamus suam cau¬ 
+            <lb ed="#J" n="60"/>sam. &amp; vnumquodque, principiorim 
+            <lb ed="#J" n="61"/>proprie est causa eorum, secudum 
+            <lb ed="#J" n="62"/>quod sunt aliae res, quae conueniut 
+            <lb ed="#J" n="63"/>in nomine, &amp; intentione. v.g. ignis 
+            <lb ed="#J" n="64"/>in fine caliditatis. Ex quo oportes  
+            <lb ed="#J" n="65"/>vt maxime verum sit illud, quod  
+            <lb ed="#J" n="66"/>est causa veritatis rerum, quae sunt  
+            <lb ed="#J" n="67"/>post. Et ideo necesse est vt princi¬ 
+            <lb ed="#J" n="68"/>pia rerum, quae sunt semper, sint 
+            <lb ed="#J" n="69"/>semper, &amp; in fine veritatis, quia 
+            <lb ed="#J" n="70"/>non sunt vera in aliquo tempore. 
+            <lb ed="#J" n="71"/>&amp; in alio non: neque, habent eam in  
+            <lb ed="#J" n="72"/>essendo vera in eo quod sunt ve¬ 
+            <lb ed="#J" n="73"/>ra, sed illa sunt causa in hoc alia¬ 
+            <lb ed="#J" n="74"/>rum rerum. Quapropter necesse est 
+            <lb ed="#J" n="75"/>ut dispositio cuius libet rei inesse, sit 
+            <lb ed="#J" n="76"/>sua dispositio in rei veritate.
+          </p>
+        </div>
+        <div xml:id="aristmet-l2-Dd1e285">
+          <head xml:id="aristmet-l2-Hd1e287">Caput 2</head>
+          <!--<p>
+            <lb ed="#J" n="62"/>in nullo causarum genere dari processum 
+            <lb ed="#J" n="63"/>inunifinitum, neque sursum uersus, 
+            <lb ed="#J" n="64"/>neque deorsum. Cap. 2
+            </p>-->
+          <p xml:id="aristmet-l2-d1e292">
+            <!-- italic version -->
+            <!--Averroes_Metaphysica_JuntSecunda_08-0064.xml-->
+            <pb ed="#J" n="30-v"/>
+            <cb ed="#J" n="a"/>
+            <lb ed="#J" n="1"/>At vero quod sit principium 
+            <lb ed="#J" n="2"/>quoddam &amp; non infinitae causa, 
+            <lb ed="#J" n="3"/>existentium, nec indirectum, nec 
+            <lb ed="#J" n="4"/>secundum speciem, palam. Nec. enim 
+            <lb ed="#J" n="5"/>vt ex materia, hoc ex hoc in infi¬ 
+            <lb ed="#J" n="6"/>nitum progredi possibile est. velu¬ 
+            <lb ed="#J" n="7"/>ti carnem quidem ex terra, terra 
+            <lb ed="#J" n="8"/>vero ex aqua, aqua vero ex aere 
+            <lb ed="#J" n="9"/>aerem aute ex igne, &amp; hoc non sta 
+            <lb ed="#J" n="10"/>re. Nec vnde principium motus. vi 
+            <lb ed="#J" n="11"/>hominem ab aere moueri, &amp; hunc 
+            <lb ed="#J" n="12"/>a Sole, Solem vero a luce, &amp; hu¬ 
+            <lb ed="#J" n="13"/>iusmodi nullum esse finem. Simi¬ 
+            <lb ed="#J" n="14"/>liter aut nec id, cuius causa, in in¬  
+            <lb ed="#J" n="15"/>finitum ire possibile est. iter quidem 
+            <lb ed="#J" n="16"/>sanitatis causam, illam vero feli¬ 
+            <lb ed="#J" n="17"/>citatis. &amp; felicitatem alius, &amp;  
+            <lb ed="#J" n="18"/>ita semper aliud alius causam esse. 
+            <lb ed="#J" n="19"/>Et in quodquid erat esse similiter.
+          </p>
+          <p xml:id="aristmet-l2-d1e339">
+            <!-- italic version -->
+            <lb ed="#J" n="61"/><pc type="indent"/>Res enim mediae est sunt ea, in qui  
+            <lb ed="#J" n="62"/>bus sunt prius et posterius, &amp; ne¬ 
+            <lb ed="#J" n="63"/>cesse est, vt prius sit ca eius, quod est 
+            <lb ed="#J" n="64"/>postremu. Si enim quaesitu fuerit a no 
+            <lb ed="#J" n="65"/>bis, quid est causa trinitatis, dicemus pri 
+            <lb ed="#J" n="66"/>mu. postremu enim non e ca alicuius eo 
+            <lb ed="#J" n="67"/>rum. et similiter etiam medum non est causa 
+            <lb ed="#J" n="68"/>eius, quia non est caus, nisi vnius tan¬ 
+            <lb ed="#J" n="69"/>tu. &amp; indifferenter siue medium 
+            <lb ed="#J" n="70"/>fuerit vniu, siue plura: &amp; si plu¬ 
+            <lb ed="#J" n="71"/>ra, siue finita, siue infinita. et par 
+            <lb ed="#J" n="72"/>tes rerum infinitarum, quae currun 
+            <lb ed="#J" n="73"/>secundum hunc modum, et vniuersaliter 
+            <lb ed="#J" n="74"/>partes infiniti omnes sunt secudum mo 
+            <lb ed="#J" n="75"/>dum vnu vsque, ad nunc. Quapropter 
+            <lb ed="#J" n="76"/>necesse est, si aliqua res non fuerit 
+            <lb ed="#J" n="77"/>primu, vt vniuersum non habeat 
+            <lb ed="#J" n="78"/>causam omnino.
+          </p>
+          <p xml:id="aristmet-l2-d1e375">
+            <!-- italic version -->
+            <lb ed="#J" n="29"/><pc type="indent"/>Et etiam impossibile est vt quod  
+            <lb ed="#J" n="30"/>habet principium ex superiori, pro¬ 
+            <lb ed="#J" n="31"/>cedat in infinitum ad inferius ver 
+            <lb ed="#J" n="32"/>bi gratia ex igne aer, ex aere a 
+            <lb ed="#J" n="33"/>qua, ex aqua terra. &amp; similiter 
+            <lb ed="#J" n="34"/>sit geneus a genere semper in infi¬ 
+            <lb ed="#J" n="35"/>nitum. Fit enim aliquid ex alio 
+            <lb ed="#J" n="36"/>duobus modis. vnus, non secundum 
+            <lb ed="#J" n="37"/>quod aliquid fit post aliquid, vt 
+            <lb ed="#J" n="38"/>dicitur quod nebula sit ex vapore, 
+            <lb ed="#J" n="39"/>sed vt dicitur quod ex puero fit 
+            <!--Averroes_Metaphysica_JuntSecunda_08-0066.xml-->
+            <cb ed="#J" n="b"/>
+            <lb ed="#J" n="40"/>vir. secundus autem, cum dicitur 
+            <lb ed="#J" n="41"/>quod ex aqua sit aer. Cu autem dici¬ 
+            <lb ed="#J" n="42"/>mus quod ex puero sit vir, inten¬ 
+            <lb ed="#J" n="43"/>dimus quod ex re, quae erit, sit res 
+            <lb ed="#J" n="44"/>quae iam est, aut ex re, quae com¬ 
+            <lb ed="#J" n="45"/>plebitur, sit res, quae iam com¬ 
+            <lb ed="#J" n="46"/>pleta est. quoniam, quemadmo¬ 
+            <lb ed="#J" n="47"/>dum inter esse &amp; non esse est ge¬ 
+            <lb ed="#J" n="48"/>neratio, ita id, quod generatur, 
+            <lb ed="#J" n="49"/>est semper inter id, quod est ens, 
+            <lb ed="#J" n="50"/>&amp; id, quod non est ens. addiscens 
+            <lb ed="#J" n="51"/>nim est generatu sciens. et hoc intendi 
+            <lb ed="#J" n="52"/>mus, cu dicimus quod ex addiscente, 
+            <lb ed="#J" n="53"/>sit scies. cu vero dicimus quod ex 
+            <lb ed="#J" n="54"/>aere sit aqua, et illud est per corrum 
+            <lb ed="#J" n="55"/>ptione alterius,i s aeris. Et io no re¬ 
+            <lb ed="#J" n="56"/>uertutur res huius disponis adinut 
+            <lb ed="#J" n="57"/>ce, neque, ex viro fit puer. quonta ex¬ 
+            <lb ed="#J" n="58"/>existente no sit illud quod erit, licet  
+            <lb ed="#J" n="59"/>post existens sit illud, quod erit. se 
+            <lb ed="#J" n="60"/>cundum igitur hunc modum dies, 
+            <lb ed="#J" n="61"/>fit ex mane, quia sit post. &amp; ideo 
+            <lb ed="#J" n="62"/>no dicitur quod mane fiat ex die, 
+            <lb ed="#J" n="63"/>alia vero reuertuntur ad tnuicem. 
+            <lb ed="#J" n="64"/>Et secundum hos duos modos impos¬ 
+            <lb ed="#J" n="65"/>sibile est vt res procedant in infini¬ 
+            <lb ed="#J" n="66"/>tum. Ea enim quae sunt inter duo, 
+            <lb ed="#J" n="67"/>necesse est esse finita. ista autem  
+            <lb ed="#J" n="68"/>reuertuntur ad inuicem. corruptio 
+            <lb ed="#J" n="69"/>nm vnius est generatio alterius. Et 
+            <lb ed="#J" n="70"/>cum hoc, impossibile est vt primum 
+            <lb ed="#J" n="71"/>aeternum corrumpatur. quontam, 
+            <lb ed="#J" n="72"/>quia generatio ex superiori non  
+            <lb ed="#J" n="73"/>procedit in infinitum, necesse est 
+            <lb ed="#J" n="74"/>vt primum, quod corrumpitur, 
+            <lb ed="#J" n="75"/>&amp; sit aliud, non sit aeternum,
+          </p>
+          <p xml:id="aristmet-l2-d1e468">
+            <!-- italic version -->
+            <lb ed="#J" n="55"/>Et etiam illud, quod est propter 
+            <lb ed="#J" n="56"/>quod fiunt res, est finis. &amp; hoc est, 
+            <lb ed="#J" n="57"/>cuius esse non est propter conseques 
+            <lb ed="#J" n="58"/>aliud, sed esse aliorum propter illud 
+            <lb ed="#J" n="59"/>Necesse est igitur, si aliquid sit ta 
+            <lb ed="#J" n="60"/>le, vt vltimum non sit infinitum, 
+            <lb ed="#J" n="61"/>si igiiur nihil fuerit tale, non erits 
+            <lb ed="#J" n="62"/>illud, propter quod fiunt caetera. Et 
+            <lb ed="#J" n="63"/>facientes causas infinitas auferunt, 
+            <lb ed="#J" n="64"/>naturam boni, &amp; non percipiunt. 
+            <lb ed="#J" n="65"/>quamuis nihil incoepit agere ali¬ 
+            <lb ed="#J" n="66"/>quam actionem quamcunque, non  
+            <lb ed="#J" n="67"/>intendendo finem.
+          </p>
+          <p xml:id="aristmet-l2-d1e497">
+            <!-- italic version  -->
+            <lb ed="#J" n="38"/><pc type="indent"/>Et cum hoc etiam, secundum 
+            <lb ed="#J" n="39"/>quod dicitur, non est intellectus in 
+            <lb ed="#J" n="40"/>entibus. habens enim intellectum 
+            <lb ed="#J" n="41"/>non agit quod agit, nisi propter 
+            <lb ed="#J" n="42"/>aliquam rem, quae est vitimum 
+            <!--Averroes_Metaphysica_JuntSecunda_08-0069.xml-->
+            <cb ed="#J" n="b"/>
+            <lb ed="#J" n="43"/>actionis. vltimum enim est finis 
+            <lb ed="#J" n="44"/>ad quem intenditur.
+          </p>
+          <p xml:id="aristmet-l2-d1e511">
+            <!-- italic -->
+            <lb ed="#J" n="60"/><pc type="indent"/>Et etiam dispositio in eo, de quo 
+            <lb ed="#J" n="61"/>quaeritur per quid, impos sibile est 
+            <lb ed="#J" n="62"/>vt sermo de eo sit extra terminos. 
+            <lb ed="#J" n="63"/>prius enim semper est magis di¬ 
+            <lb ed="#J" n="64"/>gnum in esse, posterius autem non  
+            <lb ed="#J" n="65"/>sic. &amp; illud, cuius primum non est, 
+            <lb ed="#J" n="66"/>quod consequitur illud, primum 
+            <lb ed="#J" n="67"/>non est.
+          </p>
+          <p xml:id="aristmet-l2-d1e530">
+            <!-- italic version -->
+            <lb ed="#J" n="25"/><pc type="indent"/>Et etiam qui hoc dicit destruit  
+            <lb ed="#J" n="26"/>scientiam. scientia enim non erit f 
+            <lb ed="#J" n="27"/>ne peruentu ad illa, quae non patiu 
+            <lb ed="#J" n="28"/>tur diuisionem. Et sciens secundi,  
+            <lb ed="#J" n="29"/>hoc non erit. res enim infinitae, quae 
+            <lb ed="#J" n="30"/>sunt huiusmodi dispositionis, im¬ 
+            <lb ed="#J" n="31"/>possibile est vt comprehendantur  
+            <lb ed="#J" n="32"/>ab intellectu. TFineae enim disposi¬ 
+            <lb ed="#J" n="33"/>tio non est talis, scilicet, quod &amp; si¬ 
+            <lb ed="#J" n="34"/>non adaptatur stare super diuisio¬ 
+            <lb ed="#J" n="35"/>nes suas, impossibile est vt copreho 
+            <lb ed="#J" n="36"/>dantur per intellectum, nisi per sui 
+            <lb ed="#J" n="37"/>statu, sed qui acceperit in sua imagi 
+            <lb ed="#J" n="38"/>natione lineam infinitam, non de¬ 
+            <lb ed="#J" n="39"/>terminmabit diuisiones eius.
+          </p>
+          <p xml:id="aristmet-l2-d1e557">
+            <!-- italic -->
+            <lb ed="#J" n="11"/><pc type="indent"/>Et etiam materia necesse est 
+            <lb ed="#J" n="12"/>vt imaginetur in re mota. &amp; im¬ 
+            <lb ed="#J" n="13"/>possibile est vt sit in aliquo infini 
+            <lb ed="#J" n="14"/>to in actu. si igitur non fuerit, tunc  
+            <lb ed="#J" n="15"/>illud, quod est in infinito, non erit 
+            <lb ed="#J" n="16"/>infinitum, 
+          </p>
+          <p xml:id="aristmet-l2-d1e571">
+            <!-- italic version -->
+            <lb ed="#J" n="56"/><pc type="indent"/>Et etiam si species causarum es¬ 
+            <lb ed="#J" n="57"/>sent infinitae in numero, non esset 
+            <lb ed="#J" n="58"/>scientia secundum hunc modum. 
+            <lb ed="#J" n="59"/>nos enim non videmus nos perueni 
+            <lb ed="#J" n="60"/>re ad scientiam, nisi quando sci¬ 
+            <lb ed="#J" n="61"/>mus causas.
+          </p>
+        </div>
+        <div xml:id="aristmet-l2-Dd1e591">
+          <head xml:id="aristmet-l2-Hd1e593">Caput 3</head>
+          <!-- c. 3 -->
+          <!--<p>
+            <!-\-Averroes_Metaphysica_JuntSecunda_08-0072.xml-\->
+            <pb ed="#J" n="Aeoes_Metaphysica_JuntSecunda_08-0072"/>
+            <cb ed="#J" n="a"/>
+            <lb ed="#J" n="1"/>Q Quales debent esse veritatis auditores, 
+            <lb ed="#J" n="2"/>quaeque veritatis cognitionem im¬ 
+            <lb ed="#J" n="3"/>pedire soleant. Cap. 2 
+            </p>-->
+          <p xml:id="aristmet-l2-d1e600">
+            <!-- italic version -->
+            <lb ed="#J" n="17"/>Sed obedire oportet ei, quod ai 
+            <lb ed="#J" n="18"/>diuimus, &amp; est secundum consue¬ 
+            <lb ed="#J" n="19"/>tudine, dicimus enim quod consueti si¬ 
+            <lb ed="#J" n="20"/>mus audire. &amp; quod videmus ex¬ 
+            <lb ed="#J" n="21"/>tra illud, est incoueniens: immo v. 
+            <lb ed="#J" n="22"/>demus illud, ad quod non sumus ar 
+            <lb ed="#J" n="23"/>sueti, esse inopinabile. illud enim ad 
+            <lb ed="#J" n="24"/>quod sumus assueti: est magis ap¬ 
+            <lb ed="#J" n="25"/>plicabile aio: &amp; magis notum. Et 
+            <lb ed="#J" n="26"/>tu potes scire quantum facit consue 
+            <lb ed="#J" n="27"/>tudo in hoc consyderando in legibus. 
+            <lb ed="#J" n="28"/>iuentes enim apologos: &amp; fabulas pro 
+            <lb ed="#J" n="29"/>nter consuetudine plus applicabiles 
+            <lb ed="#J" n="30"/>aio: quamus scientiae veritatis.
+          </p>
+          <p xml:id="aristmet-l2-d1e631">
+            <!-- italic version -->
+            <lb ed="#J" n="75"/><pc type="indent"/>Et quidam homines, si homo no 
+            <lb ed="#J" n="76"/>locutus fuerit cum eis mathemati 
+            <lb ed="#J" n="77"/>ce, non recipiunt illud, quod dixcit. 
+            <lb ed="#J" n="78"/>Et quidam quaerunt testimonium 
+            <lb ed="#J" n="79"/>multorum hominu. Et quidam quae¬  
+            <lb ed="#J" n="80"/>runt test imoniu Versificatoris. Et 
+            <!--Averroes_Metaphysica_JuntSecunda_08-0073.xml-->
+            <pb ed="#J" n="35-r"/>
+            <cb ed="#J" n="a"/>
+            <lb ed="#J" n="1"/>quidam quaerum ioqui secundum per¬  
+            <lb ed="#J" n="2"/>scrutationem maximam, &amp; scri¬ 
+            <lb ed="#J" n="3"/>pturarum. Et quidam contristantur  
+            <lb ed="#J" n="4"/>per sermonem perscrutatu, et odiunt 
+            <lb ed="#J" n="5"/>illum, aut quia non possunt vetine¬ 
+            <lb ed="#J" n="6"/>re ipsum, aut quia assimilatio eius.  
+            <lb ed="#J" n="7"/>est mala. scatintur Nando enim in hoc 
+            <lb ed="#J" n="8"/>est quasi * scatintur Lando in merca 
+            <lb ed="#J" n="9"/>tione. &amp; sicut scatinu ando in me¬ 
+            <lb ed="#J" n="10"/>catione est vile, ita est in sermone, 
+            <lb ed="#J" n="11"/>Et ideo oportet hominem instrut in 
+            <lb ed="#J" n="12"/>cognitionem viae cuiusliuet ver, quam 
+            <lb ed="#J" n="13"/>vult declarare: malum enim est si 
+            <lb ed="#J" n="14"/>mul quaerere aliquam scientiam, &amp;  
+            <lb ed="#J" n="15"/>modum, secundum quem declarat 
+            <lb ed="#J" n="16"/>&amp; non est facile aliquod istorum
+          </p>
+          <p xml:id="aristmet-l2-d1e675">
+            <!-- italic version -->
+            <lb ed="#J" n="22"/><pc type="indent"/>Et non oportet quaerere in qua¬ 
+            <lb ed="#J" n="23"/>libet scientia perscrutationem, sicut 
+            <lb ed="#J" n="24"/>in Mathematicis. hoc enim non opor¬ 
+            <lb ed="#J" n="25"/>tet quaerere, nisi in eis, quae non mi 
+            <lb ed="#J" n="26"/>scentur cum materia. Et ideo iste 
+            <lb ed="#J" n="27"/>modus non est naturalis. videtur. enim 
+            <lb ed="#J" n="28"/>quod tota natura fere admiscetur  
+            <lb ed="#J" n="29"/>cum materia. Et ideo oportet pri¬ 
+            <lb ed="#J" n="30"/>mo perscrutari de natura quid sit. 
+            <lb ed="#J" n="31"/>hoc. enim facto apparebunt nobis ea 
+            <lb ed="#J" n="32"/>de quibus perscrutamur naturali¬ 
+            <lb ed="#J" n="33"/>ter, &amp; vtrum consyderandum sit 
+            <lb ed="#J" n="34"/>in causis principiorum in vna scin 
+            <lb ed="#J" n="35"/>tia, aut i pluribus vna. videtur. enim 
+            <lb ed="#J" n="36"/>quod quaelibet natura habeat ma 
+            <lb ed="#J" n="37"/>teriam. Et ideo oportet perscrutari 
+            <lb ed="#J" n="38"/>primo de natura quid sit, &amp; tunc  
+            <!--Averroes_Metaphysica_JuntSecunda_08-0074.xml-->
+            <cb ed="#J" n="b"/>
+            <lb ed="#J" n="39"/>declarabuntur nobis ea, ex quibus 
+            <lb ed="#J" n="40"/>declaratur scientia Natur alis.
+          </p>
+        </div>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
