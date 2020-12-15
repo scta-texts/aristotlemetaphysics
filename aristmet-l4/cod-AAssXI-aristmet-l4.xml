@@ -23,7 +23,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="J" n="cod-AAssXX">Venice 1562 <!-- NON-italic latin translatin in codex --></witness>
+          <witness xml:id="J" n="cod-AAssXX">Venice 1562 <!-- Italic latin translatin in codex, codex is cod-AAssXX but alt manifestation slug is cod-AAssXI--></witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
