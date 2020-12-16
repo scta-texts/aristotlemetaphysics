@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 6</title>
+        <author ref="#Aristotle">Aristotle</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 6</title>
+          <date when="2020-12-16">December 16, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="J" n="cod-AAssXX">Venice 1562 <!-- Italic latin translatin in codex, codex is cod-AAssXX but alt manifestation slug is cod-AAssXI--></witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="aristmet-l6">
+        <head xml:id="aristmet-l6-Hd1e103">Liber 6</head>
+        <div xml:id="aristmet-l6-Dd1e106">
+          <head xml:id="aristmet-l6-Hd1e108">Caput 1</head>
+          <!--<p>
+            <!-\-Averroes_Metaphysica_JuntSecunda_08-0290.xml-\->
+            <pb ed="#J" n="143-v"/>
+            <cb ed="#J" n="a"/>
+            <lb ed="#J" n="1"/>AM 2SFor pe Trs 
+            [indent 48]<lb ed="#J" n="2"/>MExAprivs Iconv 
+            [indent 56]<lb ed="#J" n="3"/>22M2MSExEVS 
+            <lb ed="#J" n="4"/>Cum Auer. Commen 
+            <lb ed="#J" n="5"/>SVMMAE22222 
+            <lb ed="#J" n="6"/>in Prima declaratur, de quo ente prima 
+            <lb ed="#J" n="7"/>Philosophia consyderet, ex distinctione con 
+            <lb ed="#J" n="8"/>syderationis, &amp; modi definiendi aliarum 
+            <lb ed="#J" n="9"/>scientiarum, quarum hic sit diuisio 
+            [indent 32]<lb ed="#J" n="10"/>in Secunda declarantur quaedam entis spe 
+            <lb ed="#J" n="11"/>cies, quae ab hac scientia secluduntur.
+          </p>
+          -->
+          <p xml:id="aristmet-l6-d1e111"><!-- l6-1 -->
+            <!-- italic -->
+            <lb ed="#J" n="65"/>Manifestum est, quod principia, 
+            <lb ed="#J" n="66"/>&amp; causae entium sunt quaesita, se  
+            <lb ed="#J" n="67"/>cundum quod sunt entia simpliciter. 
+            <lb ed="#J" n="68"/>Aliqua enim est causa sanitatis, 
+            <lb ed="#J" n="69"/>&amp; infirmitatis. &amp; res exercitabs 
+            <lb ed="#J" n="70"/>les habent principia, &amp; elementa 
+            <lb ed="#J" n="71"/>&amp; causas. &amp; vniuersaliter omnis 
+            <lb ed="#J" n="72"/>scientia cogitatiua habet principia. 
+            <lb ed="#J" n="73"/>aut secundum finem
+            perscrutatio<lb ed="#J" n="74" break="no"/>nis, aut secudum perscrutationem 
+            <lb ed="#J" n="75"/>simplicem. Et quia vnaquaeque,
+            ista<lb ed="#J" n="76" break="no"/>rum continet aliquod ens, &amp;
+            ali<lb ed="#J" n="77" break="no"/>quod geneus, ideo vtitur illo, &amp; non 
+            <!--Averroes_Metaphysica_JuntSecunda_08-0291.xml-->
+            <pb ed="#J" n="144-r"/>
+            <cb ed="#J" n="a"/>
+            <lb ed="#J" n="1"/>vtitur, &amp; quaerit ens vniuersale. 
+            <lb ed="#J" n="2"/>neque secundum est ens, neque ali 
+            <lb ed="#J" n="3"/>qua earum perscrutatur per quod  
+            <lb ed="#J" n="4"/>est omnino: sed quaedam secundum 
+            <lb ed="#J" n="5"/>hanc intentionem affirmat quod  
+            <lb ed="#J" n="6"/>est sensu, &amp; quaedam affirmat
+            se<lb ed="#J" n="7" break="no"/>cundum positionem, &amp; secundum 
+            <lb ed="#J" n="8"/>hunc modum demonstrant, &amp;
+            de<lb ed="#J" n="9" break="no"/>clarant quae sunt per se generis, sub 
+            <lb ed="#J" n="10"/>quo continetur, aut necessario, aut 
+            <lb ed="#J" n="11"/>facilius. Et ideo manifestum est ex 
+            <lb ed="#J" n="12"/>sequentibus, quod substantia non  
+            <lb ed="#J" n="13"/>habet demonstrationem, &amp; si non  
+            <lb ed="#J" n="14"/>cuius est, sed aliam significationem 
+            <lb ed="#J" n="15"/>quo quo modo. Et ideo non narra 
+            <lb ed="#J" n="16"/>tur omnino, si venus. quo vtitur  
+            <lb ed="#J" n="17"/>est, aut si non est. in vna enim
+            cog<lb ed="#J" n="18" break="no"/>tatione declaratur quid sit &amp;  
+            <lb ed="#J" n="19"/>vtrum sit. Et, cum scientia Natu 
+            <lb ed="#J" n="20"/>ralis est etiam alicuius generis entis 
+            <lb ed="#J" n="21"/>Continet enim substantiam, in quae  
+            <lb ed="#J" n="22"/>est principium motus, &amp; quietis 
+            <lb ed="#J" n="23"/>manifestum est, quod non est
+            acti<lb ed="#J" n="24" break="no"/>ua, neque artificialis. principium 
+            <lb ed="#J" n="25"/>enim veru actiuarum est
+            inagen<lb ed="#J" n="26" break="no"/>te, aut intellectus, aut ars, aut
+            ali<lb ed="#J" n="27" break="no"/>qua virtus. &amp; principium artis est 
+            <lb ed="#J" n="28"/>in artibus, scilicet voluntas.
+            artifi<lb ed="#J" n="29" break="no"/>ciatum enim &amp; voluntatum fuit  
+            <lb ed="#J" n="30"/>idem. omnis igitur cogitatio agens 
+            <lb ed="#J" n="31"/>&amp; speculans habet aliquam
+            cons<lb ed="#J" n="32" break="no"/>derationem. &amp; ipsa perscrutatur 
+            <lb ed="#J" n="33"/>de ente quod impossibile est
+            moue<lb ed="#J" n="34" break="no"/>ri, &amp; de substantia, quae in
+            ma<lb ed="#J" n="35" break="no"/>iori parte est quasi definitio non  
+            <lb ed="#J" n="36"/>abstracta.
+          </p>
+          <p xml:id="aristmet-l6-d1e116"><!-- l6-2 -->
+            <!-- italic -->
+            <lb ed="#J" n="8"/><pc type="indent"/>Et oportet nos non ignorare
+            il<lb ed="#J" n="9" break="no"/>lud, quod significat aliquid, qui 
+            <lb ed="#J" n="10"/>sit secundum essentiam &amp; definitio 
+            <lb ed="#J" n="11"/>ne, qualiter est, quasi quaerere ab  
+            <lb ed="#J" n="12"/>que hoc, est facere nihil illa aut, u 
+            <lb ed="#J" n="13"/>determinmant &amp; significant quid, 
+            <lb ed="#J" n="14"/>quadam sunt sicut simus, &amp; quaedam
+            si<lb ed="#J" n="15" break="no"/>cut profundum. &amp; differentia etiam est, 
+            <lb ed="#J" n="16"/>quia quiodam accipiuntur cum materia, 
+            <lb ed="#J" n="17"/>profundum aut no. simus enim est
+            pro<lb ed="#J" n="18" break="no"/>fundum in naso: profunditas aut 
+            <lb ed="#J" n="19"/>est sine materia sensibili. Et omnia 
+            <lb ed="#J" n="20"/>naturalia dicuntur modo simili
+            il<lb ed="#J" n="21" break="no"/>li, quo dicitur simus, vt manus, &amp;  
+            <lb ed="#J" n="22"/>oculus, &amp; nasus, &amp; caro, &amp; os, et  
+            <lb ed="#J" n="23"/>totum animal: &amp; folia, et radices. 
+            <lb ed="#J" n="24"/>&amp; tota planta. definitio enim non fit 
+            <lb ed="#J" n="25"/>in aliquo istorum sine motu.
+            man<lb ed="#J" n="26" break="no"/>festum est igitur, quod in rebus na 
+            <lb ed="#J" n="27"/>turalibus quaeritur quid sit
+            mate<lb ed="#J" n="28" break="no"/>ria, &amp; determinmatur, &amp; quare sit  
+            <lb ed="#J" n="29"/>etiam. Naturalis enim habet consyde 
+            <lb ed="#J" n="30"/>rare de aliqua forma sci sa illa, quae est 
+            <lb ed="#J" n="31"/>non sine materia. Manifestum est 
+            <lb ed="#J" n="32"/>igitur ex hoc, quod scientia
+            Natu<lb ed="#J" n="33" break="no"/>ralis est aliqua scientiaris
+            specula<lb ed="#J" n="34" break="no"/>tiuarum. &amp; et scientia Mathematica 
+            <lb ed="#J" n="35"/>est scientiarum speculatiuaru. sed ma 
+            <lb ed="#J" n="36"/>nifestum non est, si scientia rerum, 
+            <!--Averroes_Metaphysica_JuntSecunda_08-0294.xml-->
+            <cb ed="#J" n="b"/>
+            <lb ed="#J" n="37"/>quae non mouentur, est abstracta 
+            <lb ed="#J" n="38"/>etiam. &amp; si sit manifestum, quod  
+            <lb ed="#J" n="39"/>quaedam mathematica non
+            mouen<lb ed="#J" n="40" break="no"/>tur, &amp; sunt abstracta. Et si
+            ali<lb ed="#J" n="41" break="no"/>quid sit sempiternum non mobile. 
+            <lb ed="#J" n="42"/>aut abstractum etiam, manifestu 
+            <lb ed="#J" n="43"/>est etiam, quod cognitio eius eris 
+            <lb ed="#J" n="44"/>in aliqua scientia speculatiua alia 
+            <lb ed="#J" n="45"/>a Naturali. scientia. enim Naturalis 
+            <lb ed="#J" n="46"/>est rerum mobilium. neque.
+            Matbe<lb ed="#J" n="47" break="no"/>matica, sed illa, quae est ante omnes 
+            <lb ed="#J" n="48"/>istas, scientia enim Naturalis est,  
+            <lb ed="#J" n="49"/>rerum inseparabilium, sed non im 
+            <lb ed="#J" n="50"/>mobibum. Et Mathematicarum 
+            <lb ed="#J" n="51"/>quaedam sunt rerum immobilium 
+            <lb ed="#J" n="52"/>sed non videntur abstracta, sed quae  
+            <lb ed="#J" n="53"/>si in materia. prima autem
+            scien<lb ed="#J" n="54" break="no"/>tia erit rerum abstractarum, &amp;  
+            <lb ed="#J" n="55"/>quae non mouentur Vnde necesse 
+            <lb ed="#J" n="56"/>vt omnia sint aeterna, &amp; maxime 
+            <lb ed="#J" n="57"/>ista, quoniam ista sunt causae
+            ve<lb ed="#J" n="58" break="no"/>rum apparentium ex diuinis.
+            Mo<lb ed="#J" n="59" break="no"/>di igitur Philosophiae essentiales 
+            <lb ed="#J" n="60"/>sunt tres, Mathematicus, Natura. 
+            <lb ed="#J" n="61"/>lis, &amp; Diuinus. Nullus enim
+            igno<lb ed="#J" n="62" break="no"/>rat quod, si diuinus est, quod est in  
+            <lb ed="#J" n="63"/>tali natura. &amp; scientia nobilis
+            de<lb ed="#J" n="64" break="no"/>bet esse nobilis generis. aliae enim 
+            <lb ed="#J" n="65"/>scientiae speculatiuae sunt valde bo 
+            <lb ed="#J" n="66"/>nae. sed ista scientia est melior
+            om<lb ed="#J" n="67" break="no"/>nibus scientiis speculatiuis.
+          </p>
+          <p xml:id="aristmet-l6-d1e121"><!-- l6-3 -->
+            <!-- italic -->
+            <lb ed="#J" n="52"/><pc type="indent"/>Et dignum est quaerere vtrum 
+            <lb ed="#J" n="53"/>prima Philosophia sit vniuersalis, 
+            <lb ed="#J" n="54"/>aut alicuius generis, aut vnius na 
+            <lb ed="#J" n="55"/>turae. Non enim est vna species, ne 
+            <lb ed="#J" n="56"/>que in scientiis Mathematicis etiam 
+            <lb ed="#J" n="57"/>sed Geometria, &amp; Astrologia sut 
+            <lb ed="#J" n="58"/>alicuius naturae, &amp; scientia vni- 
+            <lb ed="#J" n="59"/>uersalis est communis omnibus. Si  
+            <lb ed="#J" n="60"/>igitur non fuerit substantia aliqua 
+            <lb ed="#J" n="61"/>alia a substantus existentibus na 
+            <lb ed="#J" n="62"/>tura, tunc prima scientia est
+            Na<lb ed="#J" n="63" break="no"/>turalis. Et si aliqua substantia im 
+            <lb ed="#J" n="64"/>mobilis fuerit, illa erit primum, et  
+            <lb ed="#J" n="65"/>scientia eius erit prima
+            Philoso<lb ed="#J" n="66" break="no"/>phia, vniuersalis etiam.
+          </p>
+        </div>
+        <div xml:id="aristmet-l6-Dd1e125">
+          <head xml:id="aristmet-l6-Hd1e127">Caput 2</head>
+          <!--<p>
+            [indent 53]<lb ed="#J" n="11"/>Et de ente, prout ens est, ac quid 
+            <lb ed="#J" n="12"/>est, &amp; quae ei insunt, prout ens et  
+            <lb ed="#J" n="13"/>speculari huius est. 
+            
+            [indent 69]<lb ed="#J" n="14"/>SVMMA SECVNDA. 
+            <lb ed="#J" n="15"/>Declarantur quaedam entis species, quae 
+            <lb ed="#J" n="16"/>ab hac scientia secluduntur, 
+            [indent 33]<lb ed="#J" n="17"/>Dari ens per accidens, quidque illud sit. 
+            [indent 181]<lb ed="#J" n="18"/>Cap. 2 
+          </p>-->
+          <p xml:id="aristmet-l6-d1e130"><!-- l6-4 -->
+            <!-- italic -->
+            <lb ed="#J" n="73"/><pc type="indent"/>Et quia habet consyderationem 
+            <lb ed="#J" n="74"/>de ente, secundum quod est ens, &amp;  
+            <lb ed="#J" n="75"/>quid sit. Sed cum ens, quod dicitur 
+            <lb ed="#J" n="76"/>simpliciter, dicitur multis modis: 
+            <lb ed="#J" n="77"/>quorum vnus, vt diximus, dicitur, 
+            <lb ed="#J" n="78"/>per accidens, &amp; vnus dicitur quae  
+            <lb ed="#J" n="79"/>si verum, &amp; non ens quasi falsum, 
+            <lb ed="#J" n="80"/>&amp; aliis modis ab istis modis sigu¬ 
+            <!--Averroes_Metaphysica_JuntSecunda_08-0298.xml-->
+            <pb ed="#J" n="147-v"/>
+            <cb ed="#J" n="a"/>
+            <lb ed="#J" n="1"/>rarum praedicamentorum, sicut hoc 
+            <lb ed="#J" n="2"/>&amp; quantum, &amp; vbi, &amp; quando:  
+            <lb ed="#J" n="3"/>&amp; etiam praeter omnia istae quod  
+            <lb ed="#J" n="4"/>dicitur potentia &amp; actu: &amp; cum 
+            <lb ed="#J" n="5"/>ens dicatur multis modis, dicamus 
+            <lb ed="#J" n="6"/>primo de illo, quod dicitur per
+            acci<lb ed="#J" n="7" break="no"/>dens. nulla enim scientia speculate 
+            <lb ed="#J" n="8"/>ua vtitur tali modo. Et signi eius 
+            <lb ed="#J" n="9"/>est, quod nulla scientia perscruta. 
+            <lb ed="#J" n="10"/>tur de hoc, neque, actiua, neque,
+            artifi<lb ed="#J" n="11" break="no"/>cialis. Aedificator enim non facit 
+            <lb ed="#J" n="12"/>omnia, quae accidunt cum artificis 
+            <lb ed="#J" n="13"/>domus, quae sunt infinita. non enim 
+            <lb ed="#J" n="14"/>facit, vt domus adiuuet vni, &amp; non 
+            <lb ed="#J" n="15"/>ceat alui, &amp; vniuersaliter vt sit 
+            <lb ed="#J" n="16"/>aliis modis: qui non sunt facti a non 
+            <lb ed="#J" n="17"/>bis. Et similiter Geometria etiam 
+            <lb ed="#J" n="18"/>non consyderat de rebus, quae
+            acci<lb ed="#J" n="19" break="no"/>dunt siguris tali modo, neque, si
+            tria<lb ed="#J" n="20" break="no"/>gulus alius, &amp; triangulus habet 
+            <lb ed="#J" n="21"/>duos rectos angulos alios. et si
+            con<lb ed="#J" n="22" break="no"/>ueniant in definitione. accidens enim 
+            <lb ed="#J" n="23"/>est quasi aliquod nomen tantum, 
+            <lb ed="#J" n="24"/>Et ideo no malefecit Plato quoquo 
+            <lb ed="#J" n="25"/>Vmodo, quando ordinauit
+            Sophisti<lb ed="#J" n="26" break="no"/>cum sub eo, quod non est. sermones 
+            <lb ed="#J" n="27"/>enim Sophistici in maiori parte 
+            <lb ed="#J" n="28"/>sunt in eo quod conueniunt
+            acciden<lb ed="#J" n="29" break="no"/>ti. sicut illud, quod dicitur quod est 
+            <lb ed="#J" n="30"/>omnia, &amp; non est. musicus enim 
+            <lb ed="#J" n="31"/>&amp; grammaticus sunt idem, &amp;  
+            <lb ed="#J" n="32"/>nauta &amp; musicus sunt idem, &amp;  
+            <lb ed="#J" n="33"/>omne, quod est non secundum quod  
+            <lb ed="#J" n="34"/>dicitur de eo. sicut ille, qui fuit mul 
+            <lb ed="#J" n="35"/>sicus, et sit grammaticus: aut
+            ille<lb ed="#J" n="36" break="no"/>qui fuit grammaticus, &amp; fit musi 
+            <!--Averroes_Metaphysica_JuntSecunda_08-0298.xml-->
+            <cb ed="#J" n="b"/>
+            <lb ed="#J" n="37"/>tus: &amp; omnes alii sermones simi¬.  
+            <lb ed="#J" n="38"/>tes istis. Accidens enim videtur, 
+            <lb ed="#J" n="39"/>prope illud, quod non est quoquo mo 
+            <lb ed="#J" n="40"/>do. &amp; hoc manifestum est ex
+            ser<lb ed="#J" n="41" break="no"/>monibus exemplaribus. res enim, 
+            <lb ed="#J" n="42"/>quae sunt alio modo, habent genera 
+            <lb ed="#J" n="43"/>tionem &amp; corruptionem: quae aut 
+            <lb ed="#J" n="44"/>sunt. mo accident ali, non habent hoc.
+          </p>
+          <p xml:id="aristmet-l6-d1e133"><!-- l6-5 -->
+            <!-- italic -->
+            <lb ed="#J" n="68"/><pc type="indent"/>Sed tamen loquamur de
+            acci<lb ed="#J" n="69" break="no"/>dente, secundum quod possibile est 
+            <lb ed="#J" n="70"/>in sua natura, &amp; qua de causa sit. 
+            <lb ed="#J" n="71"/>&amp; videtur quod cum hoc declara 
+            <lb ed="#J" n="72"/>bitur quare non habet scientiam 
+            <lb ed="#J" n="73"/>fixam. Et cum in rebus sunt
+            quae<lb ed="#J" n="74" break="no"/>dam, quae semper sunt in eadem
+            di<lb ed="#J" n="75" break="no"/>spositione, &amp; sunt necessariae etiam,  
+            <lb ed="#J" n="76"/>non illa, quae dicvntur violente, sed. 
+            <lb ed="#J" n="77"/>quae dicuntur de illis, quae
+            impossi<lb ed="#J" n="78" break="no"/>bile est vt sint alio modo, &amp;
+            quae<lb ed="#J" n="79" break="no"/>dam non sunt necessaria neque semper 
+            <!--Averroes_Metaphysica_JuntSecunda_08-0301.xml-->
+            <pb ed="#J" n="149-r"/>
+            <cb ed="#J" n="a"/>
+            <lb ed="#J" n="1"/>per, sed sunt in maiori parte, &amp;  
+            <lb ed="#J" n="2"/>hoc est initium, &amp; causa essendi  
+            <lb ed="#J" n="3"/>per accidens. Illud enim, quod non  
+            <lb ed="#J" n="4"/>est semper, nequae in maiori parte,  
+            <lb ed="#J" n="5"/>vocetur accidens. sicut pluuia apud  
+            <lb ed="#J" n="6"/>ascensum canis. hoc enim accidit,  
+            <lb ed="#J" n="7"/>quia nunquam fuit, neque in maio 
+            <lb ed="#J" n="8"/>ri parte. &amp; accidit vt homo fuit  
+            <lb ed="#J" n="9"/>albus, sed non semper, neque in ma 
+            <lb ed="#J" n="10"/>iori parte. &amp; Aedificator &amp; Me 
+            <lb ed="#J" n="11"/>dicus curat, non in eo quod aedifica 
+            <lb ed="#J" n="12"/>tor, sed per accidens. &amp; Cocus
+            po<lb ed="#J" n="13" break="no"/>test facere ferculum vtile, sed non  
+            <lb ed="#J" n="14"/>est scientiae coquendi, &amp; ideo
+            dici<lb ed="#J" n="15" break="no"/>tur quod accidit. Secundum igitur  
+            <lb ed="#J" n="16"/>hanc dispositionem forte virtutes 
+            <lb ed="#J" n="17"/>agentes erunt aliae, &amp; ista non ha 
+            <lb ed="#J" n="18"/>bent artem, neque virtutem
+            ter<lb ed="#J" n="19" break="no"/>minatam. causa enim eorum, quae  
+            <lb ed="#J" n="20"/>sunt aut erunt per accidens est  
+            <lb ed="#J" n="21"/>etiam per accidens. Et cum non  
+            <lb ed="#J" n="22"/>omnia sunt necessario semper, sed  
+            <lb ed="#J" n="23"/>pluries, &amp; in maiori parte, tunc  
+            <lb ed="#J" n="24"/>necesse vt illud, quod est per
+            acci<lb ed="#J" n="25" break="no"/>dens, sit sicut album. non enim sem 
+            <lb ed="#J" n="26"/>per est musicus, neque in maiori  
+            <lb ed="#J" n="27"/>parte. &amp; cum sit in aliquo
+            tempo<lb ed="#J" n="28" break="no"/>re, est per accidens. &amp; si non,
+            om<lb ed="#J" n="29" break="no"/>nia erunt necessaria. &amp; tunc
+            acci<lb ed="#J" n="30" break="no"/>dens habebit aliquam causam in  
+            <lb ed="#J" n="31"/>maiori parte, &amp; oportet accipere  
+            <lb ed="#J" n="32"/>hoc primo possibilitatem alio
+            mo<lb ed="#J" n="33" break="no"/>do. Et oportet primo, si aliud non  
+            <lb ed="#J" n="34"/>fuerit Album in Graeco.
+            princi<lb ed="#J" n="35" break="no"/>pium eorum aeternum. de istis per  
+            <lb ed="#J" n="36"/>scrutabitur post.
+          </p>
+          <p xml:id="aristmet-l6-d1e138"><!-- l6-6 -->
+            <!-- italic -->
+            <lb ed="#J" n="58"/><pc type="indent"/>Quoniam autem accidens non  
+            <lb ed="#J" n="59"/>habet scientiam permanetem ma 
+            <lb ed="#J" n="60"/>nifestum est. omnis enim scientia 
+            <lb ed="#J" n="61"/>permanens aut est illius quod est  
+            <lb ed="#J" n="62"/>semper, aut illius, quod est in
+            ma<lb ed="#J" n="63" break="no"/>iori parte. quo modo enim potest
+            do<lb ed="#J" n="64" break="no"/>ceri, aut addisci, quod non est ita. 
+            <lb ed="#J" n="65"/>quoniam quod determinmatur
+            opor<lb ed="#J" n="66" break="no"/>tet vt sit semper, aut in maiori par 
+            <lb ed="#J" n="67"/>te. v.g. quod syrupus talis adiuuat  
+            <lb ed="#J" n="68"/>febricitantes in maiori parte. Et 
+            <lb ed="#J" n="69"/>impossibile est vt aliud dicatur in 
+            <lb ed="#J" n="70"/>alio tempore. vt nouitas mensis,
+            qui<lb ed="#J" n="71" break="no"/>est semper, aut in maiori parte.
+          </p>
+          <p xml:id="aristmet-l6-d1e141"><!-- l6-7 -->
+            <!-- italic -->
+            <lb ed="#J" n="63"/><pc type="indent"/>Dictum est igitur quid est
+            acci<lb ed="#J" n="64" break="no"/>dens, &amp; quid ca accidentis. &amp; quod  
+            <lb ed="#J" n="65"/>nulla habet scientiam permanente.
+          </p>
+        </div>
+        <div xml:id="aristmet-l6-Dd1e145">
+          <head xml:id="aristmet-l6-Hd1e147">Chapter 3</head>
+          <p xml:id="aristmet-l6-d1e150"><!-- l6-7-p2 -->
+            <!-- italic -->
+            Quo<lb ed="#J" n="66" break="no"/>niam aut principia, &amp; causae sunt ge 
+            <lb ed="#J" n="67"/>nerabilia &amp; corruptibilia, et
+            abs<lb ed="#J" n="68" break="no"/>que eo quod generentur aut
+            corru<lb ed="#J" n="69" break="no"/>pantur, manifestu est. Quoniam, si  
+            <lb ed="#J" n="70"/>hoc non fuerit, tunc omnia erunt nece, 
+            <lb ed="#J" n="71"/>saria, quoniam, si illud, quod
+            gene<lb ed="#J" n="72" break="no"/>ratur &amp; corrumpitur, non habuerit 
+            <lb ed="#J" n="73"/>aliquam causam modo accidentali, tuc 
+            <lb ed="#J" n="74"/>erit necessariu. Sicut dicimus, utru 
+            <lb ed="#J" n="75"/>erit hoc aut non eritem hoc enim erit, si 
+            <lb ed="#J" n="76"/>erit hoc, &amp; si non, non. &amp; hoc, si fue 
+            <lb ed="#J" n="77"/>rit aliquid, &amp; secudum hanc disponem, 
+            <lb ed="#J" n="78"/>et manifestum est, quod seper diminut 
+            <lb ed="#J" n="79"/>tur tempoes ex tempore finito. et siciter
+            per<lb ed="#J" n="80" break="no"/>uenit ad illud, quod est in instanti¬ 
+            <!--Averroes_Metaphysica_JuntSecunda_08-0304.xml-->
+            <pb ed="#J" n="150-v"/>
+            <cb ed="#J" n="a"/>
+            <lb ed="#J" n="1"/>sicut dicimus, quod si Socrates 
+            <lb ed="#J" n="2"/>exterit, morietur aut
+            infirmita<lb ed="#J" n="3" break="no"/>te, aut violentia. &amp; hoc erit, si 
+            <lb ed="#J" n="4"/>aliud fuerit. et sic peruenietur ad 
+            <lb ed="#J" n="5"/>illud, quod est instans, aut ad
+            ali<lb ed="#J" n="6" break="no"/>quid eorum, quae fuerint. vt
+            ta<lb ed="#J" n="7" break="no"/>le comestum inducit sitim. et hoc, 
+            <lb ed="#J" n="8"/>si comederit calida. et hoc aut erits 
+            <lb ed="#J" n="9"/>aut non. ergo morietur necessario, 
+            <lb ed="#J" n="10"/>Et similiter, si aliquis
+            ordinaue<lb ed="#J" n="11" break="no"/>rit, &amp; dixerit illa, quae iam facta 
+            <lb ed="#J" n="12"/>sunt, sermo de eis erit talis, et
+            ha<lb ed="#J" n="13" break="no"/>bent essentiam existentem. dicoi 
+            <lb ed="#J" n="14"/>la, quae iam fuerint essentia eorum 
+            <lb ed="#J" n="15"/>&amp; cognitio eorum, &amp; generatio 
+            <lb ed="#J" n="16"/>eorum. erunt igitur necessario
+            om<lb ed="#J" n="17" break="no"/>nia generabilia, sicut mors viui, 
+            <lb ed="#J" n="18"/>quia iam praecessit. sit enim idem,. 
+            <lb ed="#J" n="19"/>sicut contraria sunt cadem, quia 
+            <lb ed="#J" n="20"/>sunt eiusdem, sed non sine infirmi 
+            <lb ed="#J" n="21"/>tate, aut violentia, nisi hoc sit.
+            Ma<lb ed="#J" n="22" break="no"/>nifestum est igitur, quod accedit  
+            <lb ed="#J" n="23"/>ad aliquod principium: et hoc non  
+            <lb ed="#J" n="24"/>accedit ad aliud. &amp; accedet ad in 
+            <lb ed="#J" n="25"/>Vlud, quod comprehenditur casu, et 
+            <lb ed="#J" n="26"/>non est causa motus omnino. Sed fi 
+            <lb ed="#J" n="27"/>nis, qui est talis, erit ad
+            princi<lb ed="#J" n="28" break="no"/>pium habens qualitatem, &amp; cau 
+            <lb ed="#J" n="29"/>sam habentem qualitatem
+          </p>
+          <p  xml:id="aristmet-l6-d1e153"><!-- l6-7.5 -->
+            <!--Averroes_Metaphysica_JuntSecunda_08-0306.xml-->
+            <pb ed="#J" n="151-v"/>
+            <cb ed="#J" n="a"/>
+            <!-- strange italic question; part of NON-italic parallel is in above section (l6-7-p2 Non italic)-->
+            <lb ed="#J" n="1"/>vtrum vt ad materia, an vt ac 
+            <lb ed="#J" n="2"/>cuius gratia, an vt ad mouens, 
+            <lb ed="#J" n="3"/>maxime consyderandum est.
+          </p>
+        </div>
+        <div xml:id="aristmet-l6-Dd1e157">
+          <head xml:id="aristmet-l6-Hd1e159">Chapter 4</head>
+          
+          <p xml:id="aristmet-l6-d1e162"><!-- l6-7.5-p2 -->
+            <!--italic -->
+            De. 
+            <lb ed="#J" n="4"/>eo itaque, quod secundum accidens  
+            <lb ed="#J" n="5"/>est, dimittatur determinatum 
+            <lb ed="#J" n="6"/>enim sufficienter est. 
+          </p>
+          
+          <!--  <p>
+            <lb ed="#J" n="7"/>De ente vero, &amp; falso: omittendumque 
+            <lb ed="#J" n="8"/>esse ens per accidens, verumque ae falsum, 
+            <lb ed="#J" n="9"/>ac deente vt ens est consyderandas esse 
+            <lb ed="#J" n="10"/>causas, ac principia. Cap. 2
+            </p> -->
+          <p xml:id="aristmet-l6-d1e165"><!-- l6-8 -->
+            <!-- italic -->
+            <lb ed="#J" n="52"/><pc type="indent"/>Et oportet nos perscrutari mul 
+            <lb ed="#J" n="53"/>tum, vtrum sit quasi perueniens  
+            <lb ed="#J" n="54"/>ad materiam, aut ad aliud
+            pro<lb ed="#J" n="55" break="no"/>pter quid, aut ad illud, cuius e mo 
+            <lb ed="#J" n="56"/>tus. Dimittamus toitur loqui de 
+            <lb ed="#J" n="57"/>ente accidentali: na sufficit, quod de 
+            <lb ed="#J" n="58"/>terminmatu e de eo. Et loquamur de 
+            <lb ed="#J" n="59"/>vero ente, quod non est sicut falsum. 
+            <lb ed="#J" n="60"/>est enim in copositione et diuisone, et  
+            <lb ed="#J" n="61"/>vniuersaliter in diuisione
+            contradi<lb ed="#J" n="62" break="no"/>ctoriorum. quia habet affirmatio 
+            <lb ed="#J" n="63"/>nem, secundum quod est verum, &amp;  
+            <lb ed="#J" n="64"/>secundum quod est compositum
+            ha<lb ed="#J" n="65" break="no"/>bet negatione aliquam, et
+            secun<lb ed="#J" n="66" break="no"/>du quod est diuisum habet falsita 
+            <lb ed="#J" n="67"/>tem istius diuisionis, quae est
+            con<lb ed="#J" n="68" break="no"/>tradictoria. Quomodo autem
+            ac<lb ed="#J" n="69" break="no"/>cidit intelligi simul, &amp; prius, ha 
+            <lb ed="#J" n="70"/>bet alium sermonem. &amp; dico
+            si<lb ed="#J" n="71" break="no"/>mul &amp; prius, ne aliquid sit post 
+            <lb ed="#J" n="72"/>aliquid, sed vt sit adem.
+            ve<lb ed="#J" n="73" break="no"/>rum enim &amp; falsum non sunt 
+            <lb ed="#J" n="74"/>in rebus, sicut bonum &amp; malum 
+            <lb ed="#J" n="75"/>vt verum sit sicut bonum, &amp;  
+            <lb ed="#J" n="76"/>falsum sicut malum, sed sunt in 
+            <!--Averroes_Metaphysica_JuntSecunda_08-0307.xml-->
+            <pb ed="#J" n="152-r"/>
+            <cb ed="#J" n="a"/>
+            <lb ed="#J" n="1"/>cognitione. &amp; nulla cognitio est 
+            <lb ed="#J" n="2"/>de simplicibus, aut de illo quod  
+            <lb ed="#J" n="3"/>est. Oomnia igitur perscrutanda de 
+            <lb ed="#J" n="4"/>ente, quod est huiusmodi, &amp; de eo, 
+            <lb ed="#J" n="5"/>quod non est, dicenda sunt post. Et cum 
+            <lb ed="#J" n="6"/>in cognitione est aut compositio, aut 
+            <lb ed="#J" n="7"/>diuisio, non in rebus, quod est. aliud  
+            <lb ed="#J" n="8"/>secundum hunc modu: ex rebus enim, 
+            <lb ed="#J" n="9"/>quae sunt in rei veritate, est illud 
+            <lb ed="#J" n="10"/>quod significat aut quid, aut
+            qua<lb ed="#J" n="11" break="no"/>le, aut quatu, aut quod copulatur, 
+            <lb ed="#J" n="12"/>cu alio, &amp; cogitatio diuidit illud:  
+            <lb ed="#J" n="13"/>dimittamus ergo ens, quod est quas  
+            <lb ed="#J" n="14"/>accidens, &amp; quod est quasi veru. 
+            <lb ed="#J" n="15"/>causa enim vnius eorum non habet 
+            <lb ed="#J" n="16"/>definitione, &amp; causa alterius est 
+            <lb ed="#J" n="17"/>cognitio. &amp; vtrunque, est in genere,  
+            <lb ed="#J" n="18"/>diminuto generm entis, &amp; non sunt 
+            <lb ed="#J" n="19"/>ex eis, quae significant esse entis, 
+            <lb ed="#J" n="20"/>Et ideo dimittatur, &amp; perscrutes 
+            <lb ed="#J" n="21"/>tur. Album in exemplari. Iam d. 
+            <lb ed="#J" n="22"/>clarauimus vbi diximus quod  
+            <lb ed="#J" n="23"/>vnaquaed rerum dicitur multis
+            mo<lb ed="#J" n="24" break="no"/>dis. quoddam enim significat quid 
+            <lb ed="#J" n="25"/> Album in exemplari.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
