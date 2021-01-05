@@ -1361,8 +1361,8 @@
             <lb ed="#J" n="23"/>damex non ente faciunt entia. 
             <lb ed="#J" n="24"/>quidam vt hoc non cogantur, 
             <lb ed="#J" n="25"/>vnum cuncta faciunt. cur item 
-            <lb ed="#J" n="26"/>semper generatio erit, quidque ge 
-            <lb ed="#J" n="27"/>nerationis causa sit, dicit nemo 
+            <lb ed="#J" n="26"/>semper generatio erit, quidque 
+            ge<lb ed="#J" n="27" break="no"/>nerationis causa sit, dicit nemo 
             <lb ed="#J" n="28"/>At tum illis, qui duo principia 
             <lb ed="#J" n="29"/>faciunt, aliud principalius
             prin<lb ed="#J" n="30" break="no"/>cipium necesse est esse: tum illis, 
@@ -1372,8 +1372,8 @@
             <lb ed="#J" n="34"/>quidem necesse est Sapientiae, ac 
             <lb ed="#J" n="35"/>nobilissimae scientiae aliquid
             con<lb ed="#J" n="36" break="no"/>trarium ponere esse, nobis vere 
-            <lb ed="#J" n="37"/>minime. nihil enim est primo con 
-            <lb ed="#J" n="38"/>trarium. quandoquidem
+            <lb ed="#J" n="37"/>minime. nihil enim est primo 
+            con<lb ed="#J" n="38" break="no"/>trarium. quandoquidem
             cun<lb ed="#J" n="39" break="no"/>cta contraria materiam habent, 
             <lb ed="#J" n="40"/>&amp; potentia haec sunt. contraria 
             <lb ed="#J" n="41"/>vero ignorantia ad contrarium. 
@@ -1404,23 +1404,22 @@
             <lb ed="#J" n="64"/>aliquid horum est. hoc autem
             ali<lb ed="#J" n="65" break="no"/>quo pacto dictum est. Item, quo 
             <lb ed="#J" n="66"/>modo numeri sunt vnum, aut 
-            <lb ed="#J" n="67"/>anima, &amp; corpus, &amp; omnino for 
-            <lb ed="#J" n="68"/>ma &amp; res, nemo aliquid dicit, 
-            <lb ed="#J" n="69"/>nec dicere potest, nisi (vt nos) di 
-            <lb ed="#J" n="70"/>cat, quod vt mouens faciat. Qui 
+            <lb ed="#J" n="67"/>anima, &amp; corpus, &amp; omnino 
+            for<lb ed="#J" n="68" break="no"/>ma &amp; res, nemo aliquid dicit, 
+            <lb ed="#J" n="69"/>nec dicere potest, nisi (vt nos) 
+            di<lb ed="#J" n="70" break="no"/>cat, quod vt mouens faciat. Qui 
             <lb ed="#J" n="71"/>vero dicunt mathematicum
             nu<lb ed="#J" n="72" break="no"/>merum primum, &amp; ita semper 
             <lb ed="#J" n="73"/>aliam attiguam substantiam, ac 
             <lb ed="#J" n="74"/>alia cuiusque principia,
             inconspi<lb ed="#J" n="75" break="no"/>rantem vniuersi substantiam 
             <lb ed="#J" n="76"/>ciunt (nihil enim altera alteri
-            con<lb ed="#J" n="77" break="no"/>fers, siue sit, siue non sit) &amp; prin 
-            <lb ed="#J" n="78"/>cipia multa. At entia nolunt ma¬ 
-            <lb ed="#J" n="79"/>le gubernari. non est bo¬ 
-            <lb ed="#J" n="80"/>num pluralitas prin¬ 
-            <lb ed="#J" n="81"/>cipatuum. vnus 
-            <lb ed="#J" n="82"/>ergo prin¬ 
-            <lb ed="#J" n="83"/>ceps. 
+            con<lb ed="#J" n="77" break="no"/>fers, siue sit, siue non sit) &amp; 
+            prin<lb ed="#J" n="78" break="no"/>cipia multa. At entia nolunt 
+            ma<lb ed="#J" n="79" break="no"/>le gubernari. non est 
+            bo<lb ed="#J" n="80" break="no"/>num pluralitas 
+            prin<lb ed="#J" n="81" break="no"/>cipatuum. vnus 
+            <lb ed="#J" n="82"/>ergo prin<lb ed="#J" n="83" break="no"/>ceps. 
           </p>
         </div>
       </div>
