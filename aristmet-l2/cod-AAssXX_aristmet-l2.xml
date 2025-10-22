@@ -74,8 +74,8 @@
             <lb ed="#J" n="55"/>SPeculatio de verita 
             <lb ed="#J" n="56"/><!-- needs deletion -->
             <lb ed="#J" n="57"/>te, partim difficilis, 
-            <lb ed="#J" n="58"/>partim facilis est. Si 
-            <lb ed="#J" n="59"/>gnum autem, quod ne 
+            <lb ed="#J" n="58"/>partim facilis est. 
+            Si<lb ed="#J" n="59" break="no"/>gnum autem, quod ne 
             <lb ed="#J" n="60"/><!-- needs deletion -->
             <lb ed="#J" n="61"/><!-- needs deletion -->
             <lb ed="#J" n="62"/>que satis eaum aliquis 
@@ -85,10 +85,10 @@
             na<lb ed="#J" n="66" break="no"/>tura dicit. &amp; singuli quidem nil 
             <lb ed="#J" n="67"/>aut parum ei addunt, ex omnibus 
             <lb ed="#J" n="68"/>vero collectis aliqua
-            magnitu<lb ed="#J" n="69" break="no"/>do fit. Quare, si ita se videtur ha 
-            <lb ed="#J" n="70"/>bere, vt in prouerbio dicimus 
-            <lb ed="#J" n="71"/>quis aberrabit a ianua es hoc mo 
-            <lb ed="#J" n="72"/>do profecto facilis esset. totum 
+            magnitu<lb ed="#J" n="69" break="no"/>do fit. Quare, si ita se videtur 
+            ha<lb ed="#J" n="70" break="no"/>bere, vt in prouerbio dicimus 
+            <lb ed="#J" n="71"/>quis aberrabit a ianua es hoc 
+            mo<lb ed="#J" n="72" break="no"/>do profecto facilis esset. totum 
             <lb ed="#J" n="73"/>autem, &amp; partem habere non  
             <lb ed="#J" n="74"/>posse, hoc eius difficultatem ostern 
             <lb ed="#J" n="75"/>dit. Cum vero difficultas
@@ -97,22 +97,22 @@
             <lb ed="#J" n="78"/>quemadmodum enim vesperti 
             <lb ed="#J" n="79"/>lionum oculi ad lumen dici si 
             <lb ed="#J" n="80"/>habent, ita &amp; intellectus animae 
-            <lb ed="#J" n="81"/>nostrae ad ea, quae manifestissi 
-            <lb ed="#J" n="82"/>ma omnium sunt.
+            <lb ed="#J" n="81"/>nostrae ad ea, quae 
+            manifestissi<lb ed="#J" n="82" break="no"/>ma omnium sunt.
           </p>
           
           <p xml:id="aristmet-l2-d1e180">
             <lb ed="#J" n="42"/><pc type="indent"/>Verum non solum illis
-            agen<lb ed="#J" n="43" break="no"/>dae sunt gratiae, quorum opinioni 
-            <lb ed="#J" n="44"/>bus quis acquiescet, sed illis, qui 
+            agen<lb ed="#J" n="43" break="no"/>dae sunt gratiae, quorum 
+            opinioni<lb ed="#J" n="44" break="no"/>bus quis acquiescet, sed illis, qui 
             <!--Averroes_Metaphysica_JuntSecunda_08-0061.xml-->
             <cb ed="#J" n="b"/>
             <lb ed="#J" n="45"/>superficietenus dixerunt.
             confe<lb ed="#J" n="46" break="no"/>runt enim aliquid etiam isti.
             habi<lb ed="#J" n="47" break="no"/>tum namque nostrum exercuerunt. 
-            <lb ed="#J" n="48"/>Si enim Timotheus non fuisset, mul 
-            <lb ed="#J" n="49"/>tum melodiae nequaquam habuis 
-            <lb ed="#J" n="50"/>semus. si tamen Phrynis non
+            <lb ed="#J" n="48"/>Si enim Timotheus non fuisset, 
+            mul<lb ed="#J" n="49" break="no"/>tum melodiae nequaquam 
+            habuis<lb ed="#J" n="50" break="no"/>semus. si tamen Phrynis non
             extitis<lb ed="#J" n="51" break="no"/>set, ne Timotheus quidaem.
             Simi<lb ed="#J" n="52" break="no"/>li modo &amp; de illis est, qui de
             ve<lb ed="#J" n="53" break="no"/>ritate asseruerunt. a quibusdam 
@@ -124,8 +124,8 @@
             <lb ed="#J" n="8"/><pc type="indent"/>Recte autem se habet
             Philo<lb ed="#J" n="9" break="no"/>sophiam scientiam veritatis
             con<lb ed="#J" n="10" break="no"/>templatricem appellasse.
-            specu<lb ed="#J" n="11" break="no"/>latiuae etenim finis veritas, pra 
-            <lb ed="#J" n="12"/>cticae autem opus. etenim si
+            specu<lb ed="#J" n="11" break="no"/>latiuae etenim finis veritas, 
+            pra<lb ed="#J" n="12" break="no"/>cticae autem opus. etenim si
             quo<lb ed="#J" n="13" break="no"/>modo se habent consyderant 
             <lb ed="#J" n="14"/>non causam per se, sed ad aliquid.
             <lb ed="#J" n="15"/>&amp; eo in tempore practici speculantur.
@@ -147,8 +147,8 @@
             ali<lb ed="#J" n="53" break="no"/>quando vera: nec illis vt sint,
             ali<lb ed="#J" n="54" break="no"/>quid aliud causa est, sed illa
             cae<lb ed="#J" n="55" break="no"/>teris. Quare vt secundum esse
-            vnum<lb ed="#J" n="56" break="no"/>quodque se habet, ita etiam se 
-            <lb ed="#J" n="57"/>cundum veritatem.
+            vnum<lb ed="#J" n="56" break="no"/>quodque se habet, ita etiam 
+            se<lb ed="#J" n="57" break="no"/>cundum veritatem.
           </p>
         </div>
         <div xml:id="aristmet-l2-Dd1e285">
@@ -167,12 +167,12 @@
             <lb ed="#J" n="70"/>hoc potestire in infinitum. vt car 
             <lb ed="#J" n="71"/>nem ex terra, terram, ex aere, ac 
             <lb ed="#J" n="72"/>rem ex igne, &amp; hoc non stare. 
-            <lb ed="#J" n="73"/>Nec vnde principium motus ve 
-            <lb ed="#J" n="74"/>luti hominem quidem ab aere  
+            <lb ed="#J" n="73"/>Nec vnde principium motus 
+            ve<lb ed="#J" n="74" break="no"/>luti hominem quidem ab aere  
             <lb ed="#J" n="75"/>moueri, hunc vero a Sole, Solem 
             <lb ed="#J" n="76"/>autem a contentione, &amp; huius
-            nul<lb ed="#J" n="77" break="no"/>lum esse finem. Similiter nec cu 
-            <lb ed="#J" n="78"/>ius causa in infinitum progredi 
+            nul<lb ed="#J" n="77" break="no"/>lum esse finem. Similiter nec 
+            cu<lb ed="#J" n="78" break="no"/>ius causa in infinitum progredi 
             <lb ed="#J" n="79"/>potest. vt deambulationem qui 
             <lb ed="#J" n="80"/>dem sanitatis causa, illam vero 
             <lb ed="#J" n="81"/>felicitatis, selicitatem vero
@@ -224,8 +224,8 @@
             cor<lb ed="#J" n="11" break="no"/>rupto altero. Quare illa quidem 
             <lb ed="#J" n="12"/>non reflectuntur mutuo, nec fit 
             <lb ed="#J" n="13"/>puer ex viro. non enim fit ex gene. 
-            <lb ed="#J" n="14"/>ratione quod fit, sed post genera 
-            <lb ed="#J" n="15"/>tionem est. sic enim dies ex diluculo 
+            <lb ed="#J" n="14"/>ratione quod fit, sed post 
+            genera<lb ed="#J" n="15" break="no"/>tionem est. sic enim dies ex diluculo 
             <lb ed="#J" n="16"/>quoniam post hoc est, quare nec
             dilu<lb ed="#J" n="17" break="no"/>culum ex die. caetera vero
             resse<lb ed="#J" n="18" break="no"/>ctuntur. Vtroque tamen modo impossibile est 
@@ -258,22 +258,22 @@
             <lb ed="#J" n="33"/><pc type="indent"/>Nec esset intellectus in
             huiu<lb ed="#J" n="34" break="no"/>scemodi alicuius enim causa agit, 
             <lb ed="#J" n="35"/>quicunque intellectum habet, hoc 
-            <lb ed="#J" n="36"/>nanque terminus est: finis vero ip 
-            <lb ed="#J" n="37"/>se terminus.
+            <lb ed="#J" n="36"/>nanque terminus est: finis vero 
+            ip<lb ed="#J" n="37" break="no"/>se terminus.
           </p>
           <p xml:id="aristmet-l2-d1e511">
             <lb ed="#J" n="53"/><pc type="indent"/>At vero nec ipsum quid erat 
             <lb ed="#J" n="54"/>esse reduci ad aliam definitionem, 
             <lb ed="#J" n="55"/>ratione abundantem contingit. 
             <lb ed="#J" n="56"/>Semper etenim prior magis est, 
-            <lb ed="#J" n="57"/>posterior vero non est. cuius au 
-            <lb ed="#J" n="58"/>tem primum non est, nec quod 
+            <lb ed="#J" n="57"/>posterior vero non est. cuius 
+            au<lb ed="#J" n="58" break="no"/>tem primum non est, nec quod 
             <lb ed="#J" n="59"/>sequitur est.
           </p>
           <p xml:id="aristmet-l2-d1e530">
             <lb ed="#J" n="14"/><pc type="indent"/>Item ipsum scire perimunt, 
-            <lb ed="#J" n="15"/>qui ita dicunt. non enim possibi 
-            <lb ed="#J" n="16"/>le est scire, antequam ad indiuidua 
+            <lb ed="#J" n="15"/>qui ita dicunt. non enim 
+            possibi<lb ed="#J" n="16" break="no"/>le est scire, antequam ad indiuidua 
             <lb ed="#J" n="17"/>deueniatur. Et ipsum cognosce 
             <lb ed="#J" n="18"/>re non est. quae enim ita infinita 
             <lb ed="#J" n="19"/>sunt, quo modo intelligere
@@ -293,10 +293,10 @@
           <p xml:id="aristmet-l2-d1e571">&gt;
             <lb ed="#J" n="49"/><pc type="indent"/>Atqui etiam, si species
             causa<lb ed="#J" n="50" break="no"/>rum infinitae multitudine essent  
-            <lb ed="#J" n="51"/>nec hoc modo esset ipsum cogno 
-            <lb ed="#J" n="52"/>scere, tunc enim scire putamus, 
-            <lb ed="#J" n="53"/>cum causas cogno cimus. infini 
-            <lb ed="#J" n="54"/>tum vero secundum additionem non  
+            <lb ed="#J" n="51"/>nec hoc modo esset ipsum 
+            cogno<lb ed="#J" n="52" break="no"/>scere, tunc enim scire putamus, 
+            <lb ed="#J" n="53"/>cum causas cogno cimus. 
+            infini<lb ed="#J" n="54" break="no"/>tum vero secundum additionem non  
             <lb ed="#J" n="55"/>est in tempore finito pertransire.
           </p>
         </div>
@@ -320,8 +320,8 @@
             <lb ed="#J" n="9"/>similia: sed quia non consueuit 
             <lb ed="#J" n="10"/>mus, ignotiora, &amp; magis
             pere<lb ed="#J" n="11" break="no"/>grina. consuetum etenim notius 
-            <lb ed="#J" n="12"/>est. Quantam vero vim consue 
-            <lb ed="#J" n="13"/>tudo habeat, leges declarant, in 
+            <lb ed="#J" n="12"/>est. Quantam vero vim 
+            consue<lb ed="#J" n="13" break="no"/>tudo habeat, leges declarant, in 
             <lb ed="#J" n="14"/>quibus fabulosa, ac puerilia plus 
             <lb ed="#J" n="15"/>possunt propter consuetudinem, 
             <lb ed="#J" n="16"/>quam si cognosceremus ea.
@@ -337,14 +337,14 @@
             <lb ed="#J" n="64"/>propterea quod non possunt conse 
             <lb ed="#J" n="65"/>qui, aut propter curiositatem. habet 
             <lb ed="#J" n="66"/>enim certitudo tale aliquid, qua 
-            <lb ed="#J" n="67"/>re vt in contractibus, ita &amp; in ora 
-            <lb ed="#J" n="68"/>tionibus illiberale esse
+            <lb ed="#J" n="67"/>re vt in contractibus, ita &amp; in 
+            ora<lb ed="#J" n="68" break="no"/>tionibus illiberale esse
             quibus<lb ed="#J" n="69" break="no"/>dam apparet. Quapropter
             opor<lb ed="#J" n="70" break="no"/>tet peritum esse quomodosingula
             ad<lb ed="#J" n="71" break="no"/>mittenda sunt: quoniam absurdum est 
-            <lb ed="#J" n="72"/>simul scientiam, &amp; modum scien 
-            <lb ed="#J" n="73"/>tiae quaerere, neutrum autem fa 
-            <lb ed="#J" n="74"/>cile accipere est 
+            <lb ed="#J" n="72"/>simul scientiam, &amp; modum 
+            scien<lb ed="#J" n="73" break="no"/>tiae quaerere, neutrum autem 
+            fa<lb ed="#J" n="74" break="no"/>cile accipere est 
           </p>
           <p xml:id="aristmet-l2-d1e675">
             <lb ed="#J" n="10"/><pc type="indent"/>Certitudinem vero sermonis 
@@ -356,8 +356,8 @@
             Quamob<lb ed="#J" n="16" break="no"/>rem consyderandum est, primum 
             <lb ed="#J" n="17"/>quid nam natura sit. sic enim &amp; 
             <lb ed="#J" n="18"/>de quo Naturalis scientia est
-            ma<lb ed="#J" n="19" break="no"/>nifestum erit, &amp; vtrum vnius scien 
-            <lb ed="#J" n="20"/>tiae, an plurium est causas. &amp;
+            ma<lb ed="#J" n="19" break="no"/>nifestum erit, &amp; vtrum vnius 
+            scien<lb ed="#J" n="20" break="no"/>tiae, an plurium est causas. &amp;
             prin<lb ed="#J" n="21" break="no"/>cipia speculari.
           </p>
         </div>
